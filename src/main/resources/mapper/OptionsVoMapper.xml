@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lcy.tale.dao.OptionsVoMapper">
+  <resultMap id="BaseResultMap" type="com.lcy.tale.model.entity.OptionsVo">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="name" jdbcType="VARCHAR" property="name" />
+    <result column="value" jdbcType="VARCHAR" property="value" />
+    <result column="description" jdbcType="VARCHAR" property="description" />
+  </resultMap>
+
+  <!--批量保存-->
+  <insert id="insertOptions" parameterType="com.lcy.tale.model.entity.OptionsVo" >
+    INSERT INTO t_options(name, value, description) VALUES
+    <if test="list.size!=0">
+      <foreach collection="list" item="option"   separator="," >
+        ( #{option.name},#{option.value},#{option.description})
+      </foreach>
+    </if>
+  </insert>
+</mapper>
