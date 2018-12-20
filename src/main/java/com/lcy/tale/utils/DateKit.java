@@ -17,7 +17,7 @@ public class DateKit {
     public static final int INTERVAL_HOUR = 5;
     public static final int INTERVAL_MINUTE = 6;
     public static final int INTERVAL_SECOND = 7;
-    public static final Date tempDate = new Date((new Long("-2177481952000")).longValue());
+    private static final Date tempDate = new Date(new Long("-2177481952000"));
     private static List<SimpleDateFormat> dateFormats = new ArrayList(12) {
         private static final long serialVersionUID = 2249396579858199535L;
 
@@ -41,11 +41,14 @@ public class DateKit {
     }
 
     public static boolean isToday(Date date) {
-        Date now = new Date();
+        Calendar o = Calendar.getInstance();
+        o.setTime(date);
+        Calendar now = Calendar.getInstance();
+
         boolean result = true;
-        result &= date.getYear() == now.getYear();
-        result &= date.getMonth() == now.getMonth();
-        result &= date.getDate() == now.getDate();
+        result &= o.get(Calendar.YEAR) == now.get(Calendar.YEAR);
+        result &= o.get(Calendar.MONTH) == now.get(Calendar.MONTH);
+        result &= o.get(Calendar.DATE) == now.get(Calendar.DATE);
         return result;
     }
 

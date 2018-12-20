@@ -75,7 +75,7 @@ public class RestResponseBo<T> {
     }
 
     public static <T> RestResponseBo ok(T payload) {
-        return new RestResponseBo(true, payload);
+        return new RestResponseBo<>(true, payload);
     }
 
     public static <T> RestResponseBo ok(int code) {
@@ -83,7 +83,7 @@ public class RestResponseBo<T> {
     }
 
     public static <T> RestResponseBo ok(T payload, int code) {
-        return new RestResponseBo(true, payload, code);
+        return new RestResponseBo<>(true, payload, code);
     }
 
     public static RestResponseBo fail() {

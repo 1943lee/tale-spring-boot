@@ -2,6 +2,7 @@ package com.lcy.tale.model.bo;
 
 import com.lcy.tale.model.entity.CommentsVo;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 import java.util.List;
 
@@ -9,6 +10,7 @@ import java.util.List;
  * 返回页面的评论，包含父子评论内容
  * Created by 13 on 2017/2/24.
  */
+@EqualsAndHashCode(callSuper = false)
 @Data
 public class CommentBo extends CommentsVo {
 
