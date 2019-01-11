@@ -2,8 +2,8 @@ package com.lcy.tale.service.impl;
 
 import com.lcy.tale.constant.WebConst;
 import com.lcy.tale.dao.MetasVoMapper;
-import com.lcy.tale.dto.MetaDto;
-import com.lcy.tale.dto.Types;
+import com.lcy.tale.model.dto.MetaDto;
+import com.lcy.tale.model.dto.Types;
 import com.lcy.tale.exception.TipException;
 import com.lcy.tale.model.entity.ContentsVo;
 import com.lcy.tale.model.entity.MetasVo;

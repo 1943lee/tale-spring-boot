@@ -5,7 +5,7 @@ import com.github.pagehelper.PageInfo;
 import com.lcy.tale.constant.WebConst;
 import com.lcy.tale.dao.ContentsVoMapper;
 import com.lcy.tale.dao.MetasVoMapper;
-import com.lcy.tale.dto.Types;
+import com.lcy.tale.model.dto.Types;
 import com.lcy.tale.exception.TipException;
 import com.lcy.tale.model.entity.ContentsVo;
 import com.lcy.tale.service.IContentService;

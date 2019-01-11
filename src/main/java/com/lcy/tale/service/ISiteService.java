@@ -1,6 +1,6 @@
 package com.lcy.tale.service;
 
-import com.lcy.tale.dto.MetaDto;
+import com.lcy.tale.model.dto.MetaDto;
 import com.lcy.tale.model.bo.ArchiveBo;
 import com.lcy.tale.model.bo.BackResponseBo;
 import com.lcy.tale.model.bo.StatisticsBo;

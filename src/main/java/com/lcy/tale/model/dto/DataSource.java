@@ -1,4 +1,4 @@
-package com.lcy.tale.dto;
+package com.lcy.tale.model.dto;
 
 /**
  * 建立数据库连接的参数对象

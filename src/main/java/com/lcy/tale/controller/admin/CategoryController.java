@@ -2,8 +2,8 @@ package com.lcy.tale.controller.admin;
 
 import com.lcy.tale.constant.WebConst;
 import com.lcy.tale.controller.BaseController;
-import com.lcy.tale.dto.MetaDto;
-import com.lcy.tale.dto.Types;
+import com.lcy.tale.model.dto.MetaDto;
+import com.lcy.tale.model.dto.Types;
 import com.lcy.tale.model.bo.RestResponseBo;
 import com.lcy.tale.service.IMetaService;
 import lombok.extern.slf4j.Slf4j;

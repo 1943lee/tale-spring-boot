@@ -1,7 +1,7 @@
 package com.lcy.tale.interceptor;
 
 import com.lcy.tale.constant.WebConst;
-import com.lcy.tale.dto.Types;
+import com.lcy.tale.model.dto.Types;
 import com.lcy.tale.model.entity.OptionsVo;
 import com.lcy.tale.model.entity.UsersVo;
 import com.lcy.tale.service.IOptionService;
@@ -42,7 +42,6 @@ public class BaseInterceptor implements HandlerInterceptor {
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object o) throws Exception {
         String contextPath = request.getContextPath();
-        // System.out.println(contextPath);
         String uri = request.getRequestURI();
 
         //log.info("UserAgent: {}", request.getHeader(USER_AGENT));

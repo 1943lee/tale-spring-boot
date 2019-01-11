@@ -1,6 +1,6 @@
 package com.lcy.tale.service;
 
-import com.lcy.tale.dto.MetaDto;
+import com.lcy.tale.model.dto.MetaDto;
 import com.lcy.tale.model.entity.MetasVo;
 
 import java.util.List;

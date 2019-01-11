@@ -2,7 +2,7 @@ package com.lcy.tale.controller.admin;
 
 import com.lcy.tale.constant.WebConst;
 import com.lcy.tale.controller.BaseController;
-import com.lcy.tale.dto.LogActions;
+import com.lcy.tale.model.dto.LogActions;
 import com.lcy.tale.exception.TipException;
 import com.lcy.tale.model.bo.RestResponseBo;
 import com.lcy.tale.model.entity.UsersVo;

@@ -14,7 +14,7 @@
     <result column="parent" jdbcType="INTEGER" property="parent" />
   </resultMap>
 
-  <resultMap id="MetaDto" type="com.lcy.tale.dto.MetaDto" extends="BaseResultMap">
+  <resultMap id="MetaDto" type="com.lcy.tale.model.dto.MetaDto" extends="BaseResultMap">
     <result column="count" property="count" jdbcType="INTEGER"/>
   </resultMap>
 

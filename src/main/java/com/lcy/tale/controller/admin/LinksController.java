@@ -1,7 +1,7 @@
 package com.lcy.tale.controller.admin;
 
 import com.lcy.tale.controller.BaseController;
-import com.lcy.tale.dto.Types;
+import com.lcy.tale.model.dto.Types;
 import com.lcy.tale.model.bo.RestResponseBo;
 import com.lcy.tale.model.entity.MetasVo;
 import com.lcy.tale.service.IMetaService;

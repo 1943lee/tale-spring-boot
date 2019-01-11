@@ -1,4 +1,4 @@
-package com.lcy.tale.dto;
+package com.lcy.tale.model.dto;
 
 /**
  * 错误提示

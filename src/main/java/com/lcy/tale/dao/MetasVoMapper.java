@@ -1,7 +1,7 @@
 package com.lcy.tale.dao;
 
 import com.lcy.tale.core.Mapper;
-import com.lcy.tale.dto.MetaDto;
+import com.lcy.tale.model.dto.MetaDto;
 import com.lcy.tale.model.entity.MetasVo;
 import org.apache.ibatis.annotations.Param;
 

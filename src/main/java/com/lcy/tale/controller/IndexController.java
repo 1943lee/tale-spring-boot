@@ -2,9 +2,9 @@ package com.lcy.tale.controller;
 
 import com.github.pagehelper.PageInfo;
 import com.lcy.tale.constant.WebConst;
-import com.lcy.tale.dto.ErrorCode;
-import com.lcy.tale.dto.MetaDto;
-import com.lcy.tale.dto.Types;
+import com.lcy.tale.model.dto.ErrorCode;
+import com.lcy.tale.model.dto.MetaDto;
+import com.lcy.tale.model.dto.Types;
 import com.lcy.tale.model.bo.ArchiveBo;
 import com.lcy.tale.model.bo.CommentBo;
 import com.lcy.tale.model.bo.RestResponseBo;

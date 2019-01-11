@@ -1,4 +1,4 @@
-package com.lcy.tale.dto;
+package com.lcy.tale.model.dto;
 
 
 import com.lcy.tale.model.entity.MetasVo;

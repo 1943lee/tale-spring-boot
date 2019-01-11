@@ -1,4 +1,4 @@
-package com.lcy.tale.dto;
+package com.lcy.tale.model.dto;
 
 /**
  * 日志表的action字段

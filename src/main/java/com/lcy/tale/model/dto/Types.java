@@ -1,4 +1,4 @@
-package com.lcy.tale.dto;
+package com.lcy.tale.model.dto;
 
 public enum Types {
     TAG("tag"),
